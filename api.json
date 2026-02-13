@@ -1,10 +1,8 @@
 {
-  "category": "GHOST_HAUNTING",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/jumbie",
     "maintainers": [
       {
@@ -18,807 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "jumbie",
     "name": "Jumbie",
-    "aliases": [
-      {
-        "name": "Jumby",
-        "language": "English Creole",
-        "region": "Lesser Antilles",
-        "meaning": "Variant spelling"
-      },
-      {
-        "name": "Djumbie",
-        "language": "Dutch Creole",
-        "region": "Suriname, Guyana",
-        "meaning": "Dutch colonial spelling"
-      },
-      {
-        "name": "Zombi",
-        "language": "French Creole",
-        "region": "Haiti, Martinique",
-        "meaning": "Spirit, ghost (distinct from zombie)"
-      },
-      {
-        "name": "Jumbee",
-        "language": "English Creole",
-        "region": "Trinidad",
-        "meaning": "Variant spelling"
-      },
-      {
-        "name": "Duppy",
-        "language": "English Creole",
-        "region": "Jamaica",
-        "meaning": "Ghost, spirit (related concept)"
-      }
-    ],
-    "category": "GHOST_HAUNTING",
-    "subcategory": "Spirit",
+    "aliases": [],
+    "category": "|_FLYING_AFRICAN_WITCH_HEAD_FROM_PLANTATION_ERA_|",
+    "subcategory": "|",
     "tags": [
-      "ghost",
-      "spirit",
-      "caribbean",
-      "african-diaspora",
-      "ancestral",
-      "malevolent",
       "folklore",
-      "supernatural",
-      "children-of-the-night"
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "An umbrella term for ghosts, spirits, and supernatural entities in Caribbean folklore, particularly in Trinidad and the Lesser Antilles. Jumbies encompass a wide range of beings from malevolent spirits to ancestral ghosts, nature spirits, and shapeshifters, deeply rooted in African diaspora beliefs.",
-      "full": "Jumbie is the generic Caribbean term for ghosts, spirits, demons, and supernatural entities that exist in the liminal space between the living and dead. Unlike the narrow Western concept of 'ghost,' jumbie encompasses a vast spiritual taxonomy: malevolent spirits of the dead, ancestral presences, nature spirits inhabiting trees and water, protective house spirits, vengeful murdered souls, and shapeshifting entities. The term originates from West African spiritual traditions brought by enslaved peoples, merging with indigenous Carib and Arawak beliefs and European supernatural folklore. Jumbies can be helpful or harmful, guardian or trickster, bound to specific locations or wandering freely. They include specific types like Douen (children's spirits with backwards feet), Lagahoo (shapeshifting werewolf-demon), Mama D'Leau (water spirit), La Diablesse (beautiful devil woman), and many others. Protection against jumbies involves salt, prayers, turned clothing, specific herbs, and respect for the dead. The jumbie tradition represents a sophisticated cosmology of the spirit world that continues to shape Caribbean culture, identity, and community memory."
+      "summary": "Unlike the narrow Western concept of \\\"ghost,\\\" jumbie represents a complex spiritual cosmology rooted in **West and Central African traditions** that recognizes multiple categories of supernatural entities: malevolent spirits of the dead, ancestral presences, nature spirits dwelling in trees and waters, protective house spirits, vengeful murdered souls, trickster entities, shapeshifters, and far more.",
+      "full": "Unlike the narrow Western concept of \\\"ghost,\\\" jumbie represents a complex spiritual cosmology rooted in **West and Central African traditions** that recognizes multiple categories of supernatural entities: malevolent spirits of the dead, ancestral presences, nature spirits dwelling in trees and waters, protective house spirits, vengeful murdered souls, trickster entities, shapeshifters, and far more. Jumbie traditions traveled to the Caribbean through the transatlantic slave trade, carried by enslaved peoples from diverse African ethnic groups. In the Caribbean, these beliefs merged with **indigenous Taíno and Kalinago spirit concepts** and **European ghost folklore**, creating a distinctly Caribbean yet recognizably African spiritual system that has survived centuries of cultural suppression. Jumbies can be: The jumbie tradition is not merely \\\"superstition\\\" but a sophisticated understanding of death, the afterlife, spiritual agency, and the continuing presence of the ancestors. It represents cultural memory, particularly of the African diaspora experience, and continues to shape Caribbean identity, community practices, and artistic expression."
     },
     "etymology": {
-      "origin": "Most likely derived from West African Kongo word 'nzambi' or 'zumbi' meaning god, spirit, or ghost. The term traveled through the transatlantic slave trade and evolved in Caribbean Creole languages.",
-      "meaning": "Ghost, spirit, supernatural entity; anything from the spirit world",
-      "first_use": "Oral traditions from plantation era (1600s-1700s), first written records in 18th century colonial documents"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "GHOST_HAUNTING",
-      "type": "Spirit",
-      "subtype": "Multiple (umbrella term)",
-      "variant": "Caribbean Supernatural Entity"
+      "category": "|_FLYING_AFRICAN_WITCH_HEAD_FROM_PLANTATION_ERA_|",
+      "type": "|",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "douen",
-        "name": "Douen",
-        "relationship": "subcategory",
-        "description": "Spirits of unbaptized children with backwards feet, lead children astray"
-      },
-      {
-        "id": "lagahoo",
-        "name": "Lagahoo",
-        "relationship": "subcategory",
-        "description": "Shapeshifting werewolf-like entity, often appears as creature with chains"
-      },
-      {
-        "id": "soucouyant",
-        "name": "Soucouyant",
-        "relationship": "subcategory",
-        "description": "Fire vampire witch, specific type of jumbie"
-      },
-      {
-        "id": "la-diablesse",
-        "name": "La Diablesse",
-        "relationship": "subcategory",
-        "description": "Beautiful devil woman with one cloven hoof"
-      },
-      {
-        "id": "mama-dlo",
-        "name": "Mama D'Leau",
-        "relationship": "subcategory",
-        "description": "Water spirit, half-woman half-anaconda"
-      },
-      {
-        "id": "duppy",
-        "name": "Duppy",
-        "relationship": "regional_equivalent",
-        "description": "Jamaican term for ghost/spirit, similar concept"
-      },
-      {
-        "id": "lwa",
-        "name": "Lwa/Loa",
-        "relationship": "related_tradition",
-        "description": "Haitian Vodou spirits, related but distinct system"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance_notes": "Jumbies have no single appearance—they manifest in countless forms depending on type, origin, and purpose. Can be invisible, semi-transparent, fully corporeal, animal forms, human forms, or shapeshifting entities.",
-      "common_forms": [
-        {
-          "form": "Invisible presence",
-          "description": "Felt but not seen, detected by cold spots, sounds, or sense of dread",
-          "frequency": "very common"
-        },
-        {
-          "form": "Translucent figure",
-          "description": "Semi-visible human or humanoid shape",
-          "frequency": "common"
-        },
-        {
-          "form": "Animal manifestation",
-          "description": "Appears as dog, cat, bird, or other creature",
-          "frequency": "common"
-        },
-        {
-          "form": "Human appearance",
-          "description": "Looks exactly like living person or corpse",
-          "frequency": "common"
-        },
-        {
-          "form": "Monstrous hybrid",
-          "description": "Part human, part animal, or grotesque combinations",
-          "frequency": "occasional"
-        },
-        {
-          "form": "Fireball or light",
-          "description": "Glowing orb or flame (like soucouyant)",
-          "frequency": "occasional"
-        }
-      ]
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shapeshifting",
-        "description": "Many jumbies can change form at will",
-        "frequency": "varies by type",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Invisibility",
-        "description": "Can become invisible or visible selectively",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Possession",
-        "description": "Some jumbies can possess living people or animals",
-        "frequency": "occasional",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Dream invasion",
-        "description": "Enter dreams to communicate, frighten, or harm",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Physical manipulation",
-        "description": "Move objects, create sounds, touch living people",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Illness causation",
-        "description": "Cause sickness, madness, or death",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Location binding",
-        "description": "Many jumbies tied to specific places (trees, houses, crossroads)",
-        "frequency": "very common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Weather influence",
-        "description": "Some jumbies associated with storms, winds, or natural phenomena",
-        "frequency": "occasional",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "primarily nocturnal, but some active any time",
-      "disposition": "variable (malevolent, neutral, protective, or trickster)",
-      "social_structure": "solitary or in groups depending on type",
-      "habitat_preference": [
-        "silk cotton trees (ceiba)",
-        "crossroads",
-        "graveyards",
-        "abandoned houses",
-        "rivers and springs",
-        "forests and bushes",
-        "old estates and plantations"
-      ],
-      "motivations": [
-        "Revenge for death or injustice",
-        "Protection of territory",
-        "Mischief and trickery",
-        "Fulfillment of unfinished business",
-        "Hunger (for blood, souls, or life force)",
-        "Communication with living family",
-        "Enforcement of taboos"
-      ],
-      "patterns": [
-        "Active after dark, especially midnight",
-        "Avoid salt and certain herbs",
-        "Confused by backwards or inside-out clothing",
-        "Respect for religious symbols (varies)",
-        "Cannot cross running water (some types)",
-        "Drawn to unconsecrated dead",
-        "Particularly target children and vulnerable people"
-      ]
-    },
-    "vulnerabilities": [
-      {
-        "method": "Salt",
-        "description": "Creates barriers jumbies cannot cross; can harm or repel them",
-        "effectiveness": "very high"
-      },
-      {
-        "method": "Prayer and blessings",
-        "description": "Christian prayers, especially Lord's Prayer; offerings to ancestors",
-        "effectiveness": "high"
-      },
-      {
-        "method": "Inside-out clothing",
-        "description": "Wearing clothes backwards or inside-out confuses jumbies",
-        "effectiveness": "medium-high"
-      },
-      {
-        "method": "Garlic and herbs",
-        "description": "Specific protective plants (asafoetida, high john root, vervain)",
-        "effectiveness": "medium"
-      },
-      {
-        "method": "Iron",
-        "description": "Iron objects repel many spirits",
-        "effectiveness": "medium"
-      },
-      {
-        "method": "Running water",
-        "description": "Many jumbies cannot cross flowing water",
-        "effectiveness": "high for some types"
-      },
-      {
-        "method": "Proper burial rites",
-        "description": "Correct funeral ceremonies prevent dead from becoming jumbies",
-        "effectiveness": "preventative"
-      },
-      {
-        "method": "Obeah/spiritual workers",
-        "description": "Specialists can trap, bind, or banish jumbies",
-        "effectiveness": "high when properly done"
-      },
-      {
-        "method": "Open Bible",
-        "description": "Bible left open to Psalm 23 or 91",
-        "effectiveness": "medium"
-      }
-    ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
   },
-
   "distribution": {
     "range": {
-      "description": "Throughout the Caribbean, particularly in English and Dutch Creole-speaking islands. Strongest traditions in Trinidad and Tobago, Lesser Antilles, Guyana, and Suriname. Related concepts exist across all Caribbean territories with local names.",
-      "continents": ["North America", "South America"],
-      "countries": [
-        "Trinidad and Tobago",
-        "Barbados",
-        "Grenada",
-        "Saint Lucia",
-        "Saint Vincent and the Grenadines",
-        "Dominica",
-        "Antigua and Barbuda",
-        "Guyana",
-        "Suriname",
-        "Jamaica",
-        "Bahamas",
-        "United States Virgin Islands"
-      ],
-      "regions": [
-        "Lesser Antilles",
-        "Windward Islands",
-        "Leeward Islands",
-        "Caribbean Coast South America",
-        "Greater Antilles (as duppy, rolling calf, etc.)"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "cultural_distribution": {
-      "primary": "Afro-Caribbean communities",
-      "secondary": "Indo-Caribbean populations (parallel traditions)",
-      "influence": "African spiritual worldview merged with indigenous and European beliefs"
-    },
-    "hotspots": [
-      {
-        "name": "Trinidad",
-        "location": {
-          "description": "Throughout Trinidad, rural and urban",
-          "country": "Trinidad and Tobago",
-          "region": "Trinidad",
-          "coordinates": {
-            "latitude": 10.6918,
-            "longitude": -61.2225
-          }
-        },
-        "significance": "Richest jumbie taxonomy and folklore traditions",
-        "notes": "Home to douen, lagahoo, soucouyant, la diablesse, papa bois, mama d'leau, and dozens of other jumbie types"
-      },
-      {
-        "name": "Silk Cotton Trees (throughout Caribbean)",
-        "location": {
-          "description": "Ceiba pentandra trees found across Caribbean",
-          "country": "Various",
-          "region": "Caribbean-wide",
-          "coordinates": {
-            "latitude": null,
-            "longitude": null
-          }
-        },
-        "significance": "Sacred trees where jumbies congregate",
-        "notes": "Never cut or disturb silk cotton trees, especially at night—jumbies live in them"
-      },
-      {
-        "name": "Crossroads",
-        "location": {
-          "description": "Intersections, particularly three-way crossroads",
-          "country": "Various",
-          "region": "Caribbean-wide",
-          "coordinates": {
-            "latitude": null,
-            "longitude": null
-          }
-        },
-        "significance": "Liminal spaces where jumbies are powerful",
-        "notes": "Crossroads are thresholds between worlds; jumbies gather there"
-      },
-      {
-        "name": "Old Estate Houses",
-        "location": {
-          "description": "Abandoned plantation great houses",
-          "country": "Various",
-          "region": "Caribbean-wide",
-          "coordinates": {
-            "latitude": null,
-            "longitude": null
-          }
-        },
-        "significance": "Haunted by jumbies of enslaved people and plantation trauma",
-        "notes": "Sites of historical violence carry heavy jumbie presence"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1600s",
+        "date": "Unknown",
         "circa": true,
-        "source": "Oral traditions from earliest African presence in Caribbean; colonial documents reference 'negro superstitions'"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Plantation era through emancipation (1600s-1838)",
-          "description": "Jumbie beliefs provided spiritual framework during enslavement"
-        },
-        {
-          "period": "Contemporary",
-          "description": "Living tradition continues in Caribbean communities; experiencing cultural revival"
-        }
-      ],
-      "seasonal_patterns": "More active during new moon, Friday nights, and liminal times (dusk, midnight, dawn); certain jumbies associated with specific seasons"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Jumbie beliefs originate from West and Central African spiritual cosmologies that recognized multiple categories of spirits—ancestors, nature spirits, harmful entities, and deities. Enslaved peoples from diverse ethnic groups (Yoruba, Igbo, Kongo, Fon, Akan, and others) brought these beliefs to the Caribbean, where they merged, adapted, and syncretized with indigenous Taíno/Kalinago spirit beliefs and European ghost folklore.",
-      "earliest_accounts": "Oral traditions predate colonization. First written references appear in 17th-18th century colonial documents describing enslaved peoples' 'superstitions' and 'negro beliefs' about spirits.",
-      "folklore_connections": "Connected to African vodun/voodoo, Yoruba orisha traditions, Kongo nkisi spirits, European ghost lore, and indigenous Caribbean cemí spirits. The term 'jumbie' itself likely derives from Kongo 'nzambi' (god/spirit)."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "historical_context": {
-      "slavery_connection": "Jumbie beliefs were crucial for maintaining African spiritual worldviews during enslavement. They explained suffering, provided agency (obeah workers could control jumbies), and preserved cultural memory. Plantation owners feared jumbie beliefs as potential organizing tools.",
-      "resistance": "Some jumbie traditions encoded resistance—spirits of murdered enslaved people could haunt oppressors; ancestral spirits provided guidance and protection; obeah (spiritual practice) used jumbie power against plantation system.",
-      "death_and_burial": "Proper burial practices were essential to prevent the dead from becoming malevolent jumbies. Enslaved communities maintained African funerary traditions despite colonial suppression to honor dead and ensure peaceful transitions.",
-      "social_function": "Jumbie beliefs enforced community norms (misbehaving children warned about douens; adulterers feared la diablesse), explained misfortune and illness, maintained connections with ancestors, and provided cautionary tales about dangerous places and behaviors."
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    "timeline": [
-      {
-        "date": "1600s-1800s",
-        "event": "African spiritual traditions established in Caribbean",
-        "significance": "Enslaved peoples from diverse African ethnic groups create syncretic jumbie belief systems",
-        "source": "Oral traditions, plantation records, traveler accounts"
-      },
-      {
-        "date": "1700s",
-        "event": "Colonial suppression of 'obeah' and spirit beliefs",
-        "significance": "British and other colonial powers criminalize African spiritual practices, driving jumbie beliefs underground but strengthening their importance",
-        "source": "Colonial legal codes and church records"
-      },
-      {
-        "date": "1838",
-        "event": "Emancipation in British Caribbean",
-        "significance": "Freed communities openly practice jumbie traditions; beliefs strengthen as cultural identity markers",
-        "source": "Post-emancipation ethnographic observations"
-      },
-      {
-        "date": "Late 1800s-early 1900s",
-        "event": "Early ethnographic documentation",
-        "significance": "Anthropologists begin systematically recording Caribbean folklore including jumbie traditions",
-        "source": "Academic studies, Herskovits, Beckwith, Elder"
-      },
-      {
-        "date": "1900s-1960s",
-        "event": "Modernization and decline concerns",
-        "significance": "Urban migration and education lead some to abandon jumbie beliefs; rural areas maintain traditions",
-        "source": "Mid-century cultural studies"
-      },
-      {
-        "date": "1962-1980s",
-        "event": "Independence era cultural revival",
-        "significance": "Caribbean nations gain independence; renewed pride in folklore and jumbie stories as cultural heritage",
-        "source": "Post-colonial literature and cultural movements"
-      },
-      {
-        "date": "2015-present",
-        "event": "Literary renaissance",
-        "significance": "Tracey Baptiste's 'The Jumbies' series brings Caribbean folklore to international children's literature; academic interest increases",
-        "source": "Contemporary literature and media"
-      }
-    ],
-    "modern_era": "Jumbie beliefs remain active throughout the Caribbean, particularly in rural communities but also in urban areas and diaspora populations. Contemporary discussions explore jumbies as cultural memory, trauma responses (especially to plantation violence), and identity markers. Caribbean authors, artists, and scholars reclaim jumbie folklore as sophisticated spiritual cosmology rather than 'primitive superstition.' The tradition adapts to modern contexts—urban jumbies haunt housing projects, jumbie stories circulate via social media, and children's literature introduces new generations to jumbie taxonomy."
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
-  "accounts": {
-    "historical": [
-      {
-        "date": "1700s",
-        "account": "Plantation slave quarters",
-        "description": "Colonial documents reference enslaved peoples' elaborate nighttime rituals to protect against 'jumbees' and complaints about 'noise and superstitious practices'",
-        "source": "Plantation records, colonial correspondence",
-        "significance": "Demonstrates early establishment of jumbie beliefs"
-      },
-      {
-        "date": "1888",
-        "account": "Charles Kingsley observations",
-        "description": "Travel writer documents Trinidadian beliefs in various jumbies including 'fire-ball women' (soucouyants) and forest spirits",
-        "source": "At Last: A Christmas in the West Indies",
-        "significance": "Early detailed European documentation"
-      },
-      {
-        "date": "1947",
-        "account": "Herskovits field work",
-        "description": "Anthropologist documents elaborate jumbie taxonomy in Trinidad villages, recording dozens of specific types and protection methods",
-        "source": "Trinidad Village",
-        "significance": "First comprehensive academic study of jumbie beliefs"
-      }
-    ],
-    "contemporary": [
-      {
-        "date": "1970s-1990s",
-        "account": "Childhood jumbie encounters",
-        "description": "Widespread personal testimonies of seeing jumbies, being warned away from silk cotton trees, encountering douens in forests",
-        "source": "Oral histories, ethnographic interviews",
-        "significance": "Living tradition across generations"
-      },
-      {
-        "date": "2000s-present",
-        "account": "Urban jumbie experiences",
-        "description": "Reports of jumbies in modern settings—apartment buildings, schools, highways—adapting to contemporary landscape",
-        "source": "Online forums, social media, contemporary folklore collections",
-        "significance": "Shows adaptation of traditions to modern contexts"
-      },
-      {
-        "date": "2015-present",
-        "account": "Diaspora jumbie beliefs",
-        "description": "Caribbean diaspora communities in North America and UK maintain jumbie beliefs, teaching children about douens, soucouyants, and protection methods",
-        "source": "Diaspora community interviews, cultural education programs",
-        "significance": "Transnational persistence of traditions"
-      }
-    ]
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Never whistle at night (attracts jumbies)",
-        "Turn clothes inside-out when lost or frightened",
-        "Scatter salt at doorways and windows before bed",
-        "Don't look back when walking alone at night",
-        "Never call someone's name at night (jumbie might answer)",
-        "Avoid silk cotton trees, especially after dark",
-        "Babies must be baptized quickly to protect from douens",
-        "Proper burial and nine-night ceremonies prevent jumbie haunting",
-        "Crossroads require caution—don't linger after dark",
-        "If you sense a jumbie, pray immediately"
-      ],
-      "stories": [
-        "The douen who leads a child into the forest never to be found",
-        "La diablesse who seduces men to their doom",
-        "The lagahoo whose chains rattle through the night",
-        "Mama d'leau who protects rivers and drowns trespassers",
-        "Papa bois, guardian of the forest and animals",
-        "The jumbie who haunts an old estate house seeking revenge",
-        "Children who ignored warnings and encountered jumbies",
-        "Obeah workers who trapped jumbies in bottles",
-        "The silk cotton tree where dozens of jumbies dwell"
-      ],
-      "beliefs": "Jumbies exist in liminal space between life and death, order and chaos. They embody cultural memory—particularly the trauma and resilience of African diaspora peoples. Jumbies are neither purely evil nor good; they represent the complexity of the spirit world. Respecting the dead, maintaining proper rituals, and living righteously provides protection. The living and dead remain connected through the jumbie realm."
-    },
-    "african_diaspora": {
-      "origins": [
-        "Yoruba egún (ancestors) and various òrìṣà spirits (Nigeria)",
-        "Kongo nkisi spirits and nzambi concept (Central Africa)",
-        "Fon vodun spirits (Benin/Dahomey)",
-        "Akan sasabonsam and asasabonsam (Ghana)",
-        "Igbo mmuo (spirits) and alusi (deities) (Nigeria)",
-        "Multiple ethnic groups' ancestral veneration practices"
-      ],
-      "significance": "Jumbie beliefs represent one of the most complete retentions of African spiritual cosmology in the Americas. Despite centuries of cultural suppression, enslaved peoples maintained sophisticated understandings of spirit worlds, creating a distinctly Caribbean yet recognizably African system. Jumbies embody resistance to cultural erasure and the resilience of African diaspora identity.",
-      "syncretism": "African spirit categories merged with indigenous Taíno/Kalinago cemí (spirit) beliefs and European ghost/demon traditions, creating unique Caribbean taxonomy. Catholic saints sometimes identified with jumbies or invoked for protection. Hindu-influenced practices among Indo-Caribbean populations created parallel spiritual systems that coexisted with jumbie beliefs.",
-      "social_function": "Provided explanatory framework for death, disease, misfortune, and justice in communities traumatized by slavery. Maintained ancestral connections across Middle Passage rupture. Enforced community norms and taboos. Preserved African languages, rituals, and worldviews through jumbie stories and practices.",
-      "resistance": "Jumbie beliefs encoded political resistance—spirits of rebellious enslaved people could haunt oppressors; obeah practitioners used jumbie power against plantation system; maintaining African spirituality itself was act of cultural resistance. Jumbies represented agency in contexts of extreme disempowerment.",
-      "memory_and_trauma": "Many jumbies embody historical trauma—spirits of murdered enslaved people, those who died without proper burial, children stolen from families. Plantation sites remain heavily haunted, carrying memory of violence. Jumbie stories preserve historical experiences that official colonial records erased or minimized."
-    },
-    "death_rituals": {
-      "burial_practices": [
-        "Nine-night (Ninth Night) ceremony to help spirit transition",
-        "Closing mirrors and stopping clocks when someone dies",
-        "Washing and dressing body with specific rituals",
-        "Carrying coffin three times around house before burial",
-        "Scattering salt in room where person died",
-        "Leaving food and drink at graveside",
-        "Pouring libations for ancestors"
-      ],
-      "significance": "Proper death rituals essential to prevent deceased from becoming malevolent jumbie. Ancestors properly honored become protective presences rather than harmful spirits.",
-      "contemporary": "Traditional death practices persist alongside modern funeral customs; many Caribbean people maintain both Christian services and African-derived rituals"
-    },
-    "types_of_jumbies": {
-      "child_spirits": [
-        "Douen (unbaptized children with backwards feet)",
-        "Children who died before baptism or naming"
-      ],
-      "nature_spirits": [
-        "Papa Bois (father of the forest)",
-        "Mama D'Leau (mother of the waters)",
-        "Moko Jumbie (tall protective spirit)",
-        "Bush jumbies (forest dwellers)"
-      ],
-      "malevolent_entities": [
-        "Soucouyant (fire vampire)",
-        "Lagahoo (shapeshifting werewolf-demon)",
-        "La Diablesse (devil woman)",
-        "Lajabless (seductive demon)",
-        "Gang Gang Sara (flying African witch head)"
-      ],
-      "ancestral_spirits": [
-        "Family ancestors (can be protective or demanding)",
-        "Spirits of murdered people seeking justice",
-        "Old African spirits (from plantation era)"
-      ],
-      "location_bound_spirits": [
-        "House jumbies (haunt specific buildings)",
-        "Tree jumbies (inhabit specific trees, especially silk cotton)",
-        "Water jumbies (rivers, ponds, ocean)",
-        "Crossroads jumbies (guard intersections)"
-      ]
-    },
-    "indigenous": {
-      "cultures": [
-        "Taíno (Trinidad, Greater Antilles—largely extinct)",
-        "Kalinago (Dominica, St. Vincent)",
-        "Lokono/Arawak (Guyana, Suriname)"
-      ],
-      "significance": "Indigenous Caribbean peoples had sophisticated spirit beliefs (cemí) that influenced jumbie taxonomy. Silk cotton tree reverence may have indigenous roots. Forest and water spirits show indigenous/African syncretism.",
-      "notes": "Indigenous contribution often underestimated due to colonial genocide; some jumbie concepts likely represent indigenous-African fusion"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "\"The Jumbies\" by Tracey Baptiste (2015)",
-        "\"Rise of the Jumbies\" by Tracey Baptiste (2017)",
-        "\"The Jumbie God's Revenge\" by Tracey Baptiste (2019)",
-        "\"When We Were Birds\" by Ayanna Lloyd Banwo (2022)",
-        "\"Islands in the Stream\" by Nalo Hopkinson (various works featuring Caribbean folklore)",
-        "\"The Salt Roads\" by Nalo Hopkinson (2003)",
-        "\"Brown Girl in the Ring\" by Nalo Hopkinson (1998)"
-      ],
-      "film_tv": [
-        "Caribbean folklore documentaries",
-        "Local Caribbean films featuring jumbies",
-        "\"Jumbie\" (2015 Bahamian horror film)"
-      ],
-      "art": [
-        "Moko Jumbie stilt dancers (Carnival tradition)",
-        "Caribbean visual art exploring jumbie themes",
-        "Contemporary artists reclaiming folklore"
-      ],
-      "music": [
-        "Calypso songs referencing jumbies and folklore",
-        "Soca music with jumbie themes",
-        "Traditional folk songs and chants"
-      ],
-      "other": [
-        "Jumbie storytelling festivals",
-        "Cultural education programs in schools",
-        "Tourism folklore tours (with varying cultural sensitivity)",
-        "Academic conferences on Caribbean folklore and African diaspora spirituality"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Melville J. Herskovits",
-        "affiliation": "Northwestern University",
-        "contribution": "Pioneering work documenting African retentions in Caribbean, including comprehensive jumbie taxonomy in Trinidad",
-        "period": "1930s-1960s"
-      },
-      {
-        "name": "J.D. Elder",
-        "affiliation": "Trinidad folklorist",
-        "contribution": "Extensive documentation of Trinidad folklore including jumbie traditions, types, and protection methods",
-        "period": "1960s-1990s"
-      },
-      {
-        "name": "Martha Warren Beckwith",
-        "affiliation": "Vassar College",
-        "contribution": "Documentation of Caribbean folklore across multiple islands",
-        "period": "1920s-1950s"
-      },
-      {
-        "name": "Maureen Warner-Lewis",
-        "affiliation": "University of the West Indies",
-        "contribution": "Research on African cultural retentions in Caribbean spirituality",
-        "period": "1970s-present"
-      },
-      {
-        "name": "Tracey Baptiste",
-        "affiliation": "Children's author and educator",
-        "contribution": "Bringing jumbie folklore to contemporary children's literature; cultural education",
-        "period": "2015-present"
-      },
-      {
-        "name": "N. Fadeke Castor",
-        "affiliation": "Various Caribbean studies programs",
-        "contribution": "Contemporary research on spiritual and folkloric practices",
-        "period": "2000s-present"
-      }
-    ],
-    "academic_fields": [
-      "Caribbean Studies",
-      "African Diaspora Studies",
-      "Folklore and Mythology",
-      "Religious Studies",
-      "Anthropology",
-      "Postcolonial Studies",
-      "Performance Studies (moko jumbie, carnival)",
-      "Children's Literature (contemporary revival)"
-    ],
-    "ongoing_studies": "Contemporary research explores jumbies as cultural memory and trauma responses, particularly regarding enslavement and colonial violence. Digital humanities projects document regional variations. Literary scholars analyze jumbie representation in Caribbean literature. Ethnographic work continues in diaspora communities studying transmission of beliefs across generations and geographies."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "protection_methods": {
-    "traditional": [
-      {
-        "method": "Salt barriers",
-        "description": "Scatter salt at thresholds, windows, and around beds; jumbies cannot cross salt lines",
-        "effectiveness": "Very high",
-        "cultural_origin": "African and European traditions"
-      },
-      {
-        "method": "Inside-out clothing",
-        "description": "Turn clothes inside-out or wear backwards to confuse jumbies who perceive them as 'proper'",
-        "effectiveness": "High",
-        "cultural_origin": "Caribbean folk practice"
-      },
-      {
-        "method": "Prayer",
-        "description": "Lord's Prayer, Psalm 23, Psalm 91, or other Christian prayers; also traditional African prayers",
-        "effectiveness": "High",
-        "cultural_origin": "Christian syncretism and African traditions"
-      },
-      {
-        "method": "Protective herbs",
-        "description": "Garlic, asafoetida, vervain, high john the conqueror root, sacred basil",
-        "effectiveness": "Medium-high",
-        "cultural_origin": "African and European herbalism"
-      },
-      {
-        "method": "Iron objects",
-        "description": "Place iron (scissors, knives, horseshoes) under pillow or at doorways",
-        "effectiveness": "Medium-high",
-        "cultural_origin": "African and European traditions"
-      },
-      {
-        "method": "Open Bible",
-        "description": "Leave Bible open to protective psalms (23, 27, 91, 121)",
-        "effectiveness": "Medium",
-        "cultural_origin": "Christian practice"
-      },
-      {
-        "method": "Proper burial rites",
-        "description": "Nine-night ceremony, correct funeral practices prevent dead becoming jumbies",
-        "effectiveness": "Preventative—very high",
-        "cultural_origin": "African death rituals"
-      },
-      {
-        "method": "Baptism",
-        "description": "Baptize babies quickly to protect from douens (unbaptized children spirits)",
-        "effectiveness": "Preventative for children",
-        "cultural_origin": "Christian syncretism"
-      },
-      {
-        "method": "Obeah/spiritual work",
-        "description": "Consult obeah practitioner to trap, bind, or banish jumbie; protection baths and talismans",
-        "effectiveness": "High when properly performed",
-        "cultural_origin": "African spiritual practices"
-      },
-      {
-        "method": "Silence at night",
-        "description": "Don't whistle, don't call names, don't answer if name called—prevents jumbie attention",
-        "effectiveness": "Preventative",
-        "cultural_origin": "Caribbean folk wisdom"
-      },
-      {
-        "method": "Running water",
-        "description": "Cross running water to escape jumbies (many cannot cross)",
-        "effectiveness": "High for certain types",
-        "cultural_origin": "Multiple traditions"
-      },
-      {
-        "method": "Light",
-        "description": "Keep candles, lamps, or lights burning (but be cautious—some jumbies are attracted to light)",
-        "effectiveness": "Medium",
-        "cultural_origin": "Universal tradition"
-      }
-    ],
-    "taboos": [
-      "Never whistle at night (calls jumbies)",
-      "Never answer if you hear your name at night (might be jumbie)",
-      "Don't disturb silk cotton trees",
-      "Don't walk backwards or look behind you when fleeing",
-      "Don't accept food from strangers at crossroads",
-      "Never point at graveyards",
-      "Don't count stars (invites jumbie attention)",
-      "Avoid being outside alone at midnight"
-    ]
-  },
-
-  "sources": [
-    {
-      "id": "herskovits-1947",
-      "type": "book",
-      "title": "Trinidad Village",
-      "authors": ["Melville J. Herskovits", "Frances S. Herskovits"],
-      "publication": "Alfred A. Knopf",
-      "date": "1947",
-      "isbn": "N/A"
-    },
-    {
-      "id": "elder-1988",
-      "type": "book",
-      "title": "Ma Rose Point: An Anthology of Rare and Strange Legends from Trinidad & Tobago",
-      "authors": ["J.D. Elder"],
-      "publication": "National Cultural Council of Trinidad and Tobago",
-      "date": "1988",
-      "isbn": "N/A"
-    },
-    {
-      "id": "baptiste-2015",
-      "type": "book",
-      "title": "The Jumbies",
-      "authors": ["Tracey Baptiste"],
-      "publication": "Algonquin Young Readers",
-      "date": "2015",
-      "isbn": "978-1616203542"
-    },
-    {
-      "id": "warner-lewis-2003",
-      "type": "book",
-      "title": "Central Africa in the Caribbean: Transcending Time, Transforming Cultures",
-      "authors": ["Maureen Warner-Lewis"],
-      "publication": "University of the West Indies Press",
-      "date": "2003",
-      "isbn": "978-9766401054"
-    }
-  ]
+  "sources": []
 }
